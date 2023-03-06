@@ -1,0 +1,6 @@
+l=list(range(1,11))
+print("Number List:",l)
+num=int(input("Enter Your Number:"))
+pos=int(input("Enter Your Position:"))
+l.insert(pos,num)
+print("Updated list:",l)
